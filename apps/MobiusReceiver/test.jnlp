@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for SwingSet2 Demo Application -->
+<jnlp
+  spec="1.5+"
+  codebase=""
+  href="test.jnlp">
+  <information>
+    <title>DICOMUpload Application</title>
+    <vendor>South Green Medical</vendor>
+    <homepage href=""/>
+    <offline-allowed/> 
+    <shortcut online="false">
+      <desktop/>
+      <menu submenu="My Corporation Apps"/>
+    </shortcut>
+  </information>
+  <information os="linux">   
+    <title> SwingSet2 Demo on Linux </title>
+     </information>
+  <security>
+      <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.4.2+" java-vm-args="-esa -Xnoclassgc"/>
+    <jar href="Mobius_DICOM_Receiver.jar"/>
+  </resources>
+  <application-desc main-class="mobius.dicom.receiver.Main.class"/>
+</jnlp> 
